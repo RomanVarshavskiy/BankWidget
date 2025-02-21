@@ -5,6 +5,7 @@ def get_mask_card_number(num: int | str) -> str:
         return mask_number
     return "Некорректный ввод номера карты"
 
+
 def get_mask_account(num_account: int | str) -> str:
     """Маскирует номер банковского счета"""
     if len(str(num_account)) == 20 and str(num_account).isdigit():
