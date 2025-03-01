@@ -3,6 +3,7 @@
 ## Описание:
 
 Проект "BankWidget" - приложение на Python. Это виджет банковских операций клиента, который показывает несколько последних успешных банковских операций.
+Данный проект находится на стадии разработки.
 
 ## Установка:
 
@@ -39,6 +40,7 @@ python manage.py runserver
 - 'masks': функции 'get_mask_card_number' и 'get_mask_account'.
 - 'widget': функции 'get_date' и 'mask_account_card'.
 - 'processing': функции 'filter_by_state' и 'sort_by_date'.
+- 'generators': функции 'filter_by_currency', 'transaction_descriptions' и 'card_number_generator'
 
 Покрытие тестами составляет 100% кода проекта.
 
