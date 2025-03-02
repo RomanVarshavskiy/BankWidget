@@ -82,7 +82,6 @@ def transactions() -> list:
     ]
 
 
-
 @pytest.fixture
 def usd_transactions() -> list:
     return [
