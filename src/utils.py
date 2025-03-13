@@ -21,5 +21,5 @@ def get_data_transactions(path: str) -> List[Dict[str, Any]]:
 
     return transactions
 
-print(get_data_transactions("operations.json"))
+# print(get_data_transactions("operations.json"))
 print(get_data_transactions("empty2.json"))
