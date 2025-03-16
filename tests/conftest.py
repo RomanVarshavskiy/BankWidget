@@ -47,7 +47,7 @@ def transactions() -> list:
             "id": 111111111,
             "state": "EXECUTED",
             "date": "2018-06-30T02:08:58.425572",
-            "operationAmount": {"amount": "9824.07", "currency": {"name": "RUS", "code": "RUS"}},
+            "operationAmount": {"amount": "9824.07", "currency": {"name": "RUB", "code": "RUB"}},
             "description": "Перевод со счета на счет",
             "from": "Счет 75106830613657916952",
             "to": "Счет 11776614605963066702",

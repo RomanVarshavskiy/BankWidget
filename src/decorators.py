@@ -10,7 +10,7 @@ def log(filename: Any = None) -> Callable:
 
     def decorator(func: Callable) -> Callable:
         @wraps(func)
-        def wrapper(*args: tuple, **kwargs: dict)  -> Any:
+        def wrapper(*args: tuple, **kwargs: dict) -> Any:
             try:
                 result = func(*args, **kwargs)
                 log_message = f"{func.__name__} ok"
