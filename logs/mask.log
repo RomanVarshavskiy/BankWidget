@@ -1,0 +1,4 @@
+2025-03-17 21:07:57,136 root:INFO: Starting function "get_mask_card_number"
+2025-03-17 21:07:57,137 root:INFO: Masking card number - Success
+2025-03-17 21:07:57,137 root:INFO: Starting function "get_mask_account"
+2025-03-17 21:07:57,137 root:INFO: Masking account number - Success
