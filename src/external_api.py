@@ -8,8 +8,10 @@ load_dotenv()
 
 def transaction_amount_in_rub(data: dict) -> float:
     """Функция возвращает сумму транзакции (amount) в рублях"""
-    url = (f"https://api.apilayer.com/exchangerates_data/convert?to=RUB&"
-           f"from={data["operationAmount"]["currency"]["code"]}&amount={data["operationAmount"]["amount"]}")
+    url = (
+        f"https://api.apilayer.com/exchangerates_data/convert?to=RUB&"
+        f"from={data["operationAmount"]["currency"]["code"]}&amount={data["operationAmount"]["amount"]}"
+    )
     headers = {"apikey": os.getenv("API_KEY")}
     response = requests.get(url, headers=headers)
     if data["operationAmount"]["currency"]["code"] == "RUB":
