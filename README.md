@@ -14,7 +14,7 @@ git clone https://github.com/username/bankwidget.git
 
 2. Установите зависимости:
 ```
-pip install -r requirements.txt
+pip install -r pyproject.toml
 ```
 
 3. Создайте базу данных и выполните миграции:
@@ -40,7 +40,11 @@ python manage.py runserver
 - 'masks': функции 'get_mask_card_number' и 'get_mask_account'.
 - 'widget': функции 'get_date' и 'mask_account_card'.
 - 'processing': функции 'filter_by_state' и 'sort_by_date'.
-- 'generators': функции 'filter_by_currency', 'transaction_descriptions' и 'card_number_generator'
+- 'generators': функции 'filter_by_currency', 'transaction_descriptions' и 'card_number_generator'.
+- 'decorators': функции 'log', 'decorator'.
+- 'utils': функции 'get_data_transactions'.
+- 'external_api': функции 'transaction_amount_in_rub'/
+- 'read_csv_xlsx.py': функции 'read_csv', 'read_excel'
 
 Покрытие тестами составляет 100% кода проекта.
 
